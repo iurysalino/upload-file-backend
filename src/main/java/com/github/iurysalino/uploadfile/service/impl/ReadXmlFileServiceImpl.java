@@ -21,12 +21,10 @@ public class ReadXmlFileServiceImpl implements FileService {
         try {
             jaxbContext = JAXBContext.newInstance(StatusResponse.class);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            for (int i = 0; i < file.length; i++) {
-                Agentes agentes = (Agentes) jaxbUnmarshaller.unmarshal(file[i].getInputStream());
-                System.out.println("Documento: " + file[i].getOriginalFilename());
-                Arrays.stream(agentes.getAgente()).forEach(x -> {
-                    System.out.println(x.getCodigo());
-                });
+            for (MultipartFile multipartFile : file) {
+                Agentes agentes = (Agentes) jaxbUnmarshaller.unmarshal(multipartFile.getInputStream());
+                System.out.println("Documento: " + multipartFile.getOriginalFilename());
+                Arrays.stream(agentes.getAgente()).forEach(x -> System.out.println(x.getCodigo()));
             }
         } catch (JAXBException e) {
             e.printStackTrace();
