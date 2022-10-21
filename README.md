@@ -4,19 +4,7 @@ This API is constructed to upload and read files, and print the agent code. The 
 
 I am use the JAX-B to realize the Unmarshller Process. </br>
 
-`
-		<dependency> </br>
-			<groupId>javax.xml.bind</groupId> </br>
-			<artifactId>jaxb-api</artifactId> </br>
-			<version>2.3.1</version> </br>
-		</dependency> </br>
-		<dependency> </br>
-			<groupId>org.glassfish.jaxb</groupId> </br>
-			<artifactId>jaxb-runtime</artifactId> </br>
-			<version>2.3.1</version> </br>
-			<scope>runtime</scope> </br>
-		</dependency> </br>
-`
+![image](https://user-images.githubusercontent.com/4906986/197216719-d64efa9e-d1a1-44cb-9e29-8e183775133b.png)
 
 I'm use this Tecnologies: </br>
 
@@ -38,43 +26,6 @@ For run and test this project, follew the next steps: </br>
 
 ✅ XML Exemple </br>
 
-`
-<?xml version="1.0" encoding="UTF-8"?> </br>
-<agentes versao="1.0"> </br>
-    <agente> </br>
-        <codigo>1</codigo> </br>
-        <data>2000-03-14T00:00:00-03:00</data> </br>
-        <regiao sigla="SE"> </br>
-            <geracao> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-                <valor>1.864</valor> </br>
-            </geracao> </br>
-            <compra> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-                <valor>1.19</valor> </br>
-            </compra> </br>
-            <precoMedio> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-                <valor>1.593</valor> </br>
-            </precoMedio> </br>
-        </regiao> </br>
-    </agente> </br>
-</agentes> </br>
-`
+![image](https://user-images.githubusercontent.com/4906986/197216890-da72b02b-ce4b-438c-a9e1-3b7574761d59.png)
 
 Maked by Iury da Guia Salino
