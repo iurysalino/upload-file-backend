@@ -36,4 +36,45 @@ For run and test this project, follew the next steps: </br>
 
 ![image](https://user-images.githubusercontent.com/4906986/197214895-548e0fdd-8c3a-437b-8f08-05396072bd96.png) </br>
 
+✅ XML Exemple </br>
+
+`
+<?xml version="1.0" encoding="UTF-8"?> </br>
+<agentes versao="1.0"> </br>
+    <agente> </br>
+        <codigo>1</codigo> </br>
+        <data>2000-03-14T00:00:00-03:00</data> </br>
+        <regiao sigla="SE"> </br>
+            <geracao> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+                <valor>1.864</valor> </br>
+            </geracao> </br>
+            <compra> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+                <valor>1.19</valor> </br>
+            </compra> </br>
+            <precoMedio> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+                <valor>1.593</valor> </br>
+            </precoMedio> </br>
+        </regiao> </br>
+    </agente> </br>
+</agentes> </br>
+`
+
 Maked by Iury da Guia Salino
